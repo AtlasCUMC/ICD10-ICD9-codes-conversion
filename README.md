@@ -11,6 +11,8 @@ https://www.findacode.com/icd-9/icd-9-cm-diagnosis-codes.html
 
 ## Usage
 
+### ICD10 to ICD9
+
 First downlaod the code and the database:
 
 git clone https://github.com/Atlas9266/ICD10-ICD9-codes-conversion.git
@@ -35,3 +37,9 @@ python KK_ICD10_to_ICD9.py -ICD10 your_list_of_icd10_codes -ICD9 OUT_PUT_ICD9
 EXAMPLE
 
 python KK_ICD10_to_ICD9.py -ICD10 your_list_of_icd10_codes -ICD9 OUT_PUT_ICD9
+
+### ICD9 to ICD10
+
+python KK_ICD9_to_ICD10.py -ICD9 your_list_of_icd9_codes -ICD10 OUT_PUT_ICD10
+
+

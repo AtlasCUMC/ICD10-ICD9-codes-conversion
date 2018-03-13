@@ -41,4 +41,7 @@ python KK_ICD10_to_ICD9.py -ICD10 your_list_of_icd10_codes -ICD9 OUT_PUT_ICD9
 
 python KK_ICD9_to_ICD10.py -ICD9 your_list_of_icd9_codes -ICD10 OUT_PUT_ICD10
 
+# Author
+
+Atlas Khan CUMC
 

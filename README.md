@@ -1,7 +1,7 @@
 # ICD10 and ICD9 codes conversion
 
 # Introduction
-We created a database for conversion of the ICD10 to ICD9 codes, since most PheWAS algorithms uses the ICD9 codes. We downloaded the ICD9 and ICD10 codes from https://www.cms.gov/Medicare/Coding/ICD10/2018-ICD-10-CM-and-GEMs.html. We develped a python script to directly convert the ICD10 codes to ICD 9. Also we are working to develop a python script to convert the ICD9 codes to ICD10.
+We created a database for conversion of the ICD10 to ICD9 codes, since most PheWAS algorithms uses the ICD9 codes. We downloaded the ICD9 and ICD10 codes from https://www.cms.gov/Medicare/Coding/ICD10/2018-ICD-10-CM-and-GEMs.html. We developed a python script to directly convert the ICD10 codes to ICD9 and vice versa.
 
 # Useful database
 https://www.cdc.gov/nchs/icd/icd10cm_pcs_background.htm
@@ -41,7 +41,18 @@ python KK_ICD10_to_ICD9.py -ICD10 your_list_of_icd10_codes -ICD9 OUT_PUT_ICD9
 
 python KK_ICD9_to_ICD10.py -ICD9 your_list_of_icd9_codes -ICD10 OUT_PUT_ICD10
 
+### ICD9 to ICD10
+
+python KK_icd10to9_v1.1.py  --help 
+
+Eaxmaple
+python KK_icd10to9_v1.1.py A00.0 
+After running this code, it will print the out in terminal: 
+ICD9 = 001.0
+
+
 # Author
 
-Atlas Khan CUMC
+Atlas Khan, Department of Medicine (Division Nephrology), Columbia University Medical Centre, New York, USA.
+
 

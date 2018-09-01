@@ -33,7 +33,7 @@ optional arguments:
 
 python KK_ICD10_to_ICD9.py -ICD10 your_list_of_icd10_codes -ICD9 OUT_PUT_ICD9
 
-EXAMPLE
+# EXAMPLE
 
 python KK_ICD10_to_ICD9.py -ICD10 your_list_of_icd10_codes -ICD9 OUT_PUT_ICD9
 
